@@ -1,0 +1,16 @@
+.header {
+  position: absolute;
+  left: calc(50% - 540px);
+  height: 100px;
+  width: 1080px;
+  background: #ffffff;
+  border: 1px solid #eee;
+}
+
+.logo {
+  position: absolute;
+  left: 33px;
+  top: 18px;
+  width: 194px;
+  cursor: 'pointer';
+}

@@ -1,0 +1,95 @@
+@import 'theme';
+@import '//at.alicdn.com/t/font_2867597_ea815yfexuh.css';
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  background-color: #ffffff;
+  min-width: 1024px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.text {
+  color: red;
+}
+.pointer {
+  cursor: pointer;
+}
+.main-layout {
+  &.with-margin {
+    margin: 0 180px 0 180px;
+  }
+  @media screen {
+  }
+}
+.iconfont {
+  font-size: 14px;
+}
+.title {
+  text-align: center;
+  font-size: 45px;
+  font-family: BodoniSvtyTwoOSITCTT-Bold, BodoniSvtyTwoOSITCTT;
+  font-weight: bold;
+  color: #000000;
+  line-height: 45px;
+}
+.sub-title {
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 12px;
+  margin: 0.5em 0;
+}
+.desc-title {
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
+  line-height: 12px;
+}
+.divider {
+  margin: 10px 0;
+  color: #eeeeee;
+}
+.desc-wrapper {
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 25px;
+  .number {
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 20px;
+  }
+  .sm-unit {
+    font-size: 12px;
+  }
+  .owner-desc {
+    font-size: 14px;
+  }
+}
+.ant-card-body {
+  padding: 12px 24px;
+}
+
+.ant-select-selector {
+  border: 2px solid white !important ;
+  border-bottom: 2px solid rgba(225, 225, 225, 0.85) !important;
+}
+
+@media screen and (min-width: 1919px) and (max-width: 2600px) {
+  .main-layout {
+    &.with-margin {
+      margin: 0 280px 0 280px;
+    }
+  }
+}

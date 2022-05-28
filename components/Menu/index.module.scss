@@ -1,0 +1,25 @@
+.item {
+  position: absolute;
+  top:49px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  letter-spacing: 0.416667px;
+  color: #999999;
+
+  transition: all 100ms ease-in;
+}
+
+.focus {
+  font-weight: 800;
+  color: '#000000';
+}
+
+.Home     {left: 347px;}
+.Explore  {left: 450px;}
+.Ranking  {left: 566px;}
+.Minting  {left: 685px;}
+.Resources{left: 804px;}
