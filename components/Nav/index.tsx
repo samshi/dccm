@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <div className={s.header}>
       <img
-        src="/images/logo.png"
+        src="/images/dccm.jpeg"
         className={s.logo}
         onClick={() => router.push('/home')}
       />

@@ -2,7 +2,7 @@ import MenuItem from './MenuItem'
 import {useEffect, useState} from 'react'
 
 const Menu = () => {
-  const [itemList, setItemList] = useState(['Home', 'Explore', 'Ranking', 'Minting', 'Resources'])
+  const [itemList, setItemList] = useState(['Home', 'Explore', 'Ranking', 'Resources'])
 
   return (
     <>

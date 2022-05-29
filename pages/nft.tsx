@@ -4,7 +4,7 @@ const Nft = () => {
   return (
     <div>
       <NftList
-        collectionName={'A'}
+        collectionName={'B'}
         auther={'F'}
         url={'/images/collection-logo.png'}
       />
