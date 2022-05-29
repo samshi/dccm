@@ -45,7 +45,7 @@ const NftCard: FC<INftProps> = ({collectName, nft}) => {
         <div className={s.nft_trading_time}>Trading times</div>
         <div className={s.nft_trading_time_value}>{nft.Trading_times}</div>
 
-        <Divider style={{ marginTop: 20, marginBottom: 20 }} className={'divider'} plain />
+        <div className={s.divider}></div>
         <div className={s.watchlist}>watchlist : {nft.watchlist}</div>
 
         <div className={s.zan}>{nft.zan}</div>

@@ -4,7 +4,7 @@
   margin-left: calc(50% - 540px);
   padding-bottom: 300px;
   width: 1080px;
-  border: 1px solid red;
+  //border: 1px solid red;
 }
 
 .topImage {
@@ -179,7 +179,7 @@
 .wrapper {
   margin-top: 44px;
   margin-left: 56px;
-  width:949px;
+  width: 949px;
 
   display: flex;
   justify-content: space-around;
@@ -187,16 +187,16 @@
   text-align: center;
 }
 
-.itemWrapper{
+.itemWrapper {
   width: 160px;
   height: 250px;
-  border-radius:5px;
-  border:1px solid #F0F2F5;
-  overflow:hidden;
-  margin-bottom:33px;
+  border-radius: 5px;
+  border: 1px solid #F0F2F5;
+  overflow: hidden;
+  margin-bottom: 33px;
 }
 
-.nft_project{
+.nft_project {
   position: absolute;
   left: 9px;
   top: 149px;
@@ -213,7 +213,7 @@
   color: #000000;
 }
 
-.nft_name{
+.nft_name {
   position: absolute;
   left: 9px;
   top: 164px;
@@ -229,7 +229,8 @@
 
   color: #000000;
 }
-.nft_price{
+
+.nft_price {
   position: absolute;
   right: 22px;
   top: 149px;
@@ -245,7 +246,8 @@
 
   color: #000000;
 }
-.nft_price_value{
+
+.nft_price_value {
   position: absolute;
   right: 22px;
   top: 163px;
@@ -262,7 +264,8 @@
 
   color: #999999;
 }
-.nft_cot{
+
+.nft_cot {
   position: absolute;
   right: 22px;
   top: 173px;
@@ -278,7 +281,8 @@
 
   color: #000000;
 }
-.nft_cot_value{
+
+.nft_cot_value {
   position: absolute;
   right: 22px;
   top: 185px;
@@ -295,22 +299,24 @@
 
   color: #999999;
 }
-.nft_action{
+
+.nft_action {
   position: absolute;
   left: 0;
   top: 187px;
   width: 58px;
   height: 25px;
 
-  font-size:8px;
-  line-height:25px;
+  font-size: 8px;
+  line-height: 25px;
   color: #fff;
-  text-align:center;
+  text-align: center;
 
 
   background: #73C000;
 }
-.nft_trading_time{
+
+.nft_trading_time {
   position: absolute;
   right: 22px;
   top: 196px;
@@ -327,7 +333,7 @@
   color: #000000;
 }
 
-.nft_trading_time_value{
+.nft_trading_time_value {
   position: absolute;
   right: 22px;
   top: 209px;
@@ -345,7 +351,16 @@
   color: #999999;
 }
 
-.watchlist{
+.divider {
+  position: absolute;
+  left: 0;
+  top: 219px;
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #E2E2E2
+}
+
+.watchlist {
   position: absolute;
   left: 19px;
   top: 226px;
@@ -361,7 +376,8 @@
 
   color: #000000;
 }
-.zan{
+
+.zan {
   position: absolute;
   right: 9px;
   top: 226px;
